@@ -34,4 +34,4 @@ int main() {
     cout << "ans: " << resultPair.first - resultPair.second << " (" << resultPair.first << ", " << resultPair.second << ")" << endl;
 
     return 0;
-} //  time complexity is O(N^2)
+} // time complexity is O(N^2)

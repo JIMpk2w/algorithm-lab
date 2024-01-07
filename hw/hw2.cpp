@@ -22,4 +22,4 @@ int main() {
     cout << "]" << endl;
     
     return 0;
-} //  time complexity is O(N) + O(N) = O(N)
+} // time complexity is O(N) + O(N) = O(N)

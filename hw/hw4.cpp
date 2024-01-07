@@ -23,4 +23,4 @@ int main() {
     cout << "The missing number is: " << missingNumber << endl;
 
     return 0;
-} //  time complexity is O(N)
+} // time complexity is O(N)

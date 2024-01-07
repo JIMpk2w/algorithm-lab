@@ -5,7 +5,7 @@ using namespace std;
 bool searchX(int A[5][5], int n, int x) {
     int i = 0, j = n - 1;
 
-    while (i < n && j >= 0) { // รอบน้อยกว่า n รอบ
+    while (i < n && j >= 0) { // n รอบ
         if (A[i][j] == x) {
             return true;
         } else if (A[i][j] > x) {
@@ -39,4 +39,4 @@ int main() {
     }
 
     return 0;
-} //  time complexity is O(log(N))
+} // time complexity is O(N)
